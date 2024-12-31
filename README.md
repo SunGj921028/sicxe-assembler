@@ -16,7 +16,7 @@ A SIC/XE assembler made from python.
 ---
 
 ### File architecture
-```asm
+```
 SICXE_assembler/
 ├── main.py                         # 程式進入點
 ├── config.py                       # 設定檔（放一些全域變數或 table）
@@ -46,7 +46,7 @@ SICXE_assembler/
 ---
 
 ### Flow chart of assembler
-
+![flowChart](https://github.com/user-attachments/assets/f893d0b2-3920-4242-a494-d38037cf31a6)
 
 ---
 
