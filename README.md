@@ -46,7 +46,7 @@ SICXE_assembler/
 ---
 
 ### Flow chart of assembler
-![flowChart](https://github.com/user-attachments/assets/f893d0b2-3920-4242-a494-d38037cf31a6)
+![image](https://github.com/SunGj921028/sicxe-assembler/blob/main/img/flowChart.png)
 
 ---
 
