@@ -415,8 +415,8 @@ class Section:
             print('-' * 25)
             print('Process Literal Pool')
             self._process_literal_pool()
-            analyzer = Analyzer(self)
-            analyzer.analyze("LITTAB") #! print on console
+            # analyzer = Analyzer(self)
+            # analyzer.analyze("LITTAB") #! print on console
             print('Process Literal Pool completed')
             print('-' * 25)
     
@@ -427,8 +427,8 @@ class Section:
         
         print('Set symbol table')
         self._process_symbol()
-        analyzer = Analyzer(self)
-        analyzer.analyze("SYMTAB") #! print on console
+        # analyzer = Analyzer(self)
+        # analyzer.analyze("SYMTAB") #! print on console
         print('Set symbol table completed')
         print('-' * 25)
         
@@ -441,9 +441,9 @@ class Section:
             print('Set external defintion location')
             self._set_external_definition_location()
             print('Set external defintion location completed')
-            analyzer = Analyzer(self)
-            analyzer.analyze("EXTREF") #! print on console
-            analyzer.analyze("EXTDEF")
+            # analyzer = Analyzer(self)
+            # analyzer.analyze("EXTREF") #! print on console
+            # analyzer.analyze("EXTDEF")
 
     def pass2(self) -> None:
         """第二次掃描"""
@@ -453,7 +453,7 @@ class Section:
             print('Reorder instruction completed')
         print('Generate object code for each instruction')
         self._generate_object_code()
-        analyzer = Analyzer(self)
-        analyzer.analyze("MODREC") #! print on console
-        analyzer.analyze("INSTR") #! print on console
+        # analyzer = Analyzer(self)
+        # analyzer.analyze("MODREC") #! print on console
+        # analyzer.analyze("INSTR") #! print on console
         print('Generate object code completed')
